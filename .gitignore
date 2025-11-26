@@ -179,3 +179,15 @@ tags
 
 # wandb
 wandb
+
+weights/
+
+GENERATED/
+
+datasets/construction/
+
+datasets/default/
+
+models/
+
+test.py
