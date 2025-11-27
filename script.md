@@ -38,3 +38,8 @@ python generate_caption.py
 ```bash
 ./docker_run.sh python generate_image.py
 ```
+
+# img2img usage
+```bash
+./docker_run.sh python generate_image_by_image.py
+```

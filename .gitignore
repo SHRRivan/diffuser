@@ -184,6 +184,10 @@ weights/
 
 GENERATED/
 
+img2img_base/
+
+img2img_aug/
+
 datasets/construction/
 
 datasets/default/

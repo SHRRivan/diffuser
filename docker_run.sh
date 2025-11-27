@@ -17,7 +17,7 @@ set -e
 
 rest=$@
 
-IMAGE="${IMAGE:-crpi-pxcwlfv1s57m718e.cn-shanghai.personal.cr.aliyuncs.com/seventen/diffuser:v1}"
+IMAGE="${IMAGE:-diffuser:sevenTen}"
 
 CONTAINER_ID=$(docker inspect --format="{{.Id}}" ${IMAGE} 2> /dev/null)
 if [[ "${CONTAINER_ID}" ]]; then
